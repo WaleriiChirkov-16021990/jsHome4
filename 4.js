@@ -14,7 +14,7 @@ xxxxx
 
 function drawASlide(rows, symbol) {
     for (let i = 1; i <= rows; i++) {
-        console.log(String(symbol).repeat(i));
+        console.log(symbol.repeat(i));
     }
 }
 
